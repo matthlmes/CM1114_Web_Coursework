@@ -3,3 +3,91 @@
     text-align: center;
 }
 
+body{
+    background-color: grey;
+}
+
+header{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1, h2, h3, h4, h5 ,h6, p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1{
+    font-size: 36pt;
+}
+
+h3{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 10pt;
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: white;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: darkblue;
+    border-radius: 10px;
+}
+
+
+/* Navigation */
+
+nav li{
+    border: 2px, solid, blue;
+    background-color: darkblue;
+    list-style-type: none;
+}
+
+nav li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+.active{
+    background-color: blue;
+}
+
+/* Event Table */
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 2px, solid, White;
+}
+
+Table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+Table tr:hover{
+    background-color: grey;
+}
+
+Table th{
+    background-color: darkblue;
+    color: white;
+}
